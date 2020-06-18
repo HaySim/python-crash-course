@@ -130,3 +130,36 @@ print(f"\nThe {wrong_colour.title()} is not available in red.")
 
 
 
+#Sorting a list permanently with the sort() method:
+#In alphabetical order:
+cars = ['tesla', 'bmw', 'hyundai', 'ford']
+cars.sort()
+print(cars)
+
+#Use reverse=True for reverse alphabetical order:
+cars = ['tesla', 'bmw', 'hyundai', 'ford']
+cars.sort(reverse=True)
+print(cars)
+
+#Sorting a list temporarily with the sorted() function:
+cars = ['tesla', 'bmw', 'hyundai', 'ford']
+print("\nHere is the original list:")
+print(cars)
+
+print("\nHere is the sorted list:")
+print(sorted(cars))
+
+print("\nHere is the original list again:")
+print(cars)
+
+#To reverse the original order of a list:"
+cars.reverse()
+print(cars)
+
+#Finding the length of a list:
+cars = ['tesla', 'bmw', 'hyundai', 'ford']
+print(len(cars))
+
+
+
+
