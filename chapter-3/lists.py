@@ -2,41 +2,28 @@
 #In Python, square brackets ([]) indicate a list.
 #Individual elements are separated by commas.
 
-
-
 bicycles = ['trek', 'cannondale', 'redline', 'specialised']
 print(bicycles)
 
-
-
 #Accessing Elements in a list:
 #Index positions start at 0, not 1.
-
-
 
 #Will return 'trek' without square brackets:
 bicycles = ['trek', 'cannondale', 'redline', 'specialised']
 print(bicycles[0])
 
-
-
 #'Trek' will be capitalised:
 bicycles = ['trek', 'cannondale', 'redline', 'specialised']
 print(bicycles[0].title())
-
-
 
 bicycles = ['trek', 'cannondale', 'redline', 'specialised']
 print(bicycles[1])
 print(bicycles[3])
 
-
 #Returning the last item in the list:#
 #(bicycles[-2]) would return the second item from the end of the list.
 bicycles = ['trek', 'cannondale', 'redline', 'specialised']
 print(bicycles[-1])
-
-
 
 #Using individual values from a list:
 bicycles = ['trek', 'cannondale', 'redline', 'specialised']
@@ -47,14 +34,11 @@ cars = ['tesla', 'bmw', 'hyundai', 'ford']
 message = f"I would like to own a {cars[0].title()} Model S."
 print(message)
 
-
 #Modifying Elements in a list:
 cars = ['tesla', 'bmw', 'hyundai', 'ford']
 print(cars)
 cars[0] = 'suzuki'
 print(cars)
-
-
 
 #Adding Elements to the end of a list:
 #When you append an item to a list, the new element is added to the end of the list.
@@ -72,15 +56,11 @@ cars.append('hyundai')
 
 print(cars)
 
-
-
 #Inserting Elements at any position in the list and will shift every other value in the list one position to the right:
 cars = ['tesla', 'bmw', 'hyundai', 'ford']
 
 cars.insert(2, 'fiat')
 print(cars) #['tesla', 'bmw', 'fiat', 'hyundai', 'ford']
-
-
 
 #Removing Elements from a list:
 
@@ -100,8 +80,6 @@ popped_car = cars.pop()
 print(cars)
 print(popped_car)
 
-
-
 last_owned = cars.pop()
 print(f"The last car I owned was a {last_owned.title()}.")
 
@@ -109,8 +87,6 @@ print(f"The last car I owned was a {last_owned.title()}.")
 cars = ['tesla', 'bmw', 'hyundai', 'ford']
 last_owned = cars.pop(2)
 print(f"The last car I owned was a {last_owned.title()}.")
-
-
 
 #Removing an item by value:
 #Note: The remove() method deletes only the first occurrence of the value you specify.
@@ -127,8 +103,6 @@ wrong_colour = 'tesla'
 cars.remove(wrong_colour)
 print(cars)
 print(f"\nThe {wrong_colour.title()} is not available in red.")
-
-
 
 #Sorting a list permanently with the sort() method:
 #In alphabetical order:
