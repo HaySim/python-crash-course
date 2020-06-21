@@ -25,8 +25,7 @@ print(f"I can't wait to see your next trick, {magician.title()}.\n")
 # because the final value associated with magician is 'carolina', she is the only one who receives the
 # "looking forward to the next trick" message.
 
-
-
+print("")
 
 pizzas = ['cheese', 'pepperoni', 'hawaiian']
 for pizza in pizzas:
@@ -36,6 +35,8 @@ pizzas = ['cheese', 'pepperoni', 'hawaiian']
 for pizza in pizzas:
     print(f"I like {pizza.title()} pizza!")
 
+print("")
+
 pets = ['dog', 'cat', 'rabbit']
 for pet in pets:
     print(f"A {pet.title()} would make a great pet!")
@@ -44,6 +45,8 @@ pets = ['dog', 'cat', 'rabbit']
 for pet in pets:
     print(f"A {pet.title()} would make a great pet!")
 print("Any of these animals would be so much fun to have as a pet!")
+
+print("")
 
 # slicing a list:
 # to output the first three elements in a list:
@@ -67,6 +70,8 @@ players = ['charles', 'martina', 'michael', 'florence', 'eli']
 print("Here are the first three players on my team:")
 for player in players[:3]:
     print(player.title())
+
+print("")
 
 # copying a list:
 my_foods = ['pizza', 'falafel', 'carrot cake']
